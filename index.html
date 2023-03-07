@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    console.clear()
+    console.log('xin chao')
+    console.error('hii')
+    console.warn('abvc')
+
+    console.time();
+    for (let i =0; i < 2; i++){
+        alert('hi')
+    }
+    console.timeEnd()
+    console.table(["Mer","BMW","Lexus"]);
+    console.table({firstname:"John", lastname:"Doe"});
+    for (let i = 0; i < 2; i++) {
+        console.count("myLabel");
+    }
+    console.group();
+    console.log("Hello again, this time inside a group!");
+    console.groupEnd();
+    console.log("and we are back.");
+</script>
+</body>
+</html>
